@@ -22,5 +22,11 @@ The purpose is for the h1 to change based on what the input is.
 </script>
  
 {@render children()}
+```c
+
+git clone
+npm install
+npm run dev 
 ```
+
  

@@ -49,7 +49,7 @@ div {
  /* Both the header and the footer are as wide as the website and the text is aligned to be centered*/
 header, footer {
     width: 100vw;
-    background-color: #ddb2e0;
+    background-color: #630a0a;
     color: white;
     padding-top: 50px;
     padding-bottom:50px;
@@ -69,7 +69,7 @@ footer{
 h1 {
     font-size: 40px;
     font-weight: bold;
-    color: #6b1e63;
+    color: #630a0a;
     margin-top: 10px;
     display: flex;
     justify-content: center;
@@ -90,7 +90,7 @@ input {
     font-size: 18px;
     padding: 8px;
     width: 250px;
-    border: 2px solid #007BFF;
+    border: 2px solid #630a0a;
     border-radius: 5px;
     text-align: center;
 

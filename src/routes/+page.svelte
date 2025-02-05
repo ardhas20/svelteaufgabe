@@ -1,22 +1,29 @@
+<!--This is the top of the website,the header,-->
 <header>
     Header
 </header>
 
 
 <script>
-    let greeting = $state ("Hello");
+    let greeting = $state ("Hello"); //The greeting starts off as "Hello"//
 </script>
 
 <div>
     <h1>{greeting}</h1>
     <h2>What do you want to write</h2>
+ <!-- The writing the user inputs showson the H1-->   
     <input type = “text” bind:value={greeting}>
 </div>
+
+<!--This is the bottom part of the website,the footer-->
 
 <footer>
     Footer
 </footer>
+
 <style>
+
+/* The body is configured to show all elements in the center in a column */
 
 body {
     font-family: Arial, sans-serif;
@@ -29,6 +36,8 @@ body {
     align-items: center;
 }
 
+
+/* The div is configured to show all elements in the center in a column */
 div {
     background: white;
     padding: 30px;
@@ -37,7 +46,7 @@ div {
     text-align: center;
     
 }
-
+ /* Both the header and the footer are as wide as the website and the text is aligned to be centered*/
 header, footer {
     width: 100vw;
     background-color: #ddb2e0;
@@ -54,6 +63,8 @@ footer{
     left: 0;
     bottom: 0;
 }
+
+
 
 h1 {
     font-size: 40px;
